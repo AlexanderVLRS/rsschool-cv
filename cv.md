@@ -1,6 +1,6 @@
 # RSschool
 
-![avatars](./avatars.jpg "Фотография")
+![avatars](./avatars.jpg?raw=true "Фотография")
 
 ## Alexander Bondar
 ### Junior Backend Developer
