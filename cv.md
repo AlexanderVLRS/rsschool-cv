@@ -1,6 +1,6 @@
 # RSschool
 
-![avatars](./avatars.jpg?raw=true "Фотография")
+![avatars](https://raw.githubusercontent.com/AlexanderVLRS/rsschool-cv/gh-pages/avatars.jpg "Фотография")
 
 ## Alexander Bondar
 ### Junior Backend Developer
