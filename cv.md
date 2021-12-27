@@ -10,6 +10,7 @@
 * Email: 2988971@mail.ru
 * Discors: Chin#5450
 ****
+
 ### Brief information about yourself
 
 My professional activity has never been associated with website development, writing code, scripts, etc. A friendly environment, mainly programmers and administrators, constantly pushed to study this area of knowledge. Having reached the professional and career limit in my field, I realized that I needed to move on. Well, or at least try yourself in another area.
@@ -27,6 +28,7 @@ I believe that my desire to learn and my desire for new knowledge will help me t
 * GIT
 * VS Code
 ****
+
 ### Code example:
 
 '''
@@ -44,6 +46,7 @@ https://AlexanderVLRS.github.io/rsschool-cv/cv
 * HTML for beginners (https://ru.code-basics.com/languages/html)
 * CSS for beginners (https://ru.code-basics.com/languages/css)
 ****
+
 ### Languages:
 * Russian - Native
 * English - Pre-Intermediate (CEFR A2)
