@@ -31,10 +31,12 @@ html {
 
 header {
   border: 1px solid red;
+  background-color: cornflowerblue;
  }
   
 footer {
   border: 1px solid red;
+  background-color: cornflowerblue;
   }
 
 main {
