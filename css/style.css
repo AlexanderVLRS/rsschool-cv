@@ -1,6 +1,9 @@
 body {
   font-family: 'Roboto', sans-serif;
   }
+* {
+    box-sizing: border-box;
+  }
 p {
     color: red;
     width: 500px;
