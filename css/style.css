@@ -1,40 +1,11 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  min-height: 100vh;  
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 * {
     box-sizing: border-box;
 }
-
 @media (max-width: 768px) {
   .section {
     width: 100%;
   }
 }
-
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.nav-list {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  list-style: none;
-  font-size: 14px;
-
-  }
-
-.nav-link {
-  transition: .3s;
-  padding: 0 20px;
-  line-height: 50px;
-  }
-
 a { text-decoration: none; 
     color: #ffe; 
     display:inline-block;
@@ -47,10 +18,62 @@ a:hover { color: rgb(140, 191, 221);
           text-decoration: underline;
         }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+footer {
+  background-color: cornflowerblue;
+  }
+header {
+  background-color: cornflowerblue;
+ }
+html {
+  scroll-behavior: smooth; 
+}
+.link {
+  text-decoration: none;
+  color: #829985;
+  transition: color 0.5s;
+}
+.link:hover {
+  color: #5d7260;
+}
+main {
+  background-color: #fff;
+  font-size: 14px
+  }
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  font-size: 14px;
+  }
+.nav-link {
+  transition: .3s;
+  padding: 0 20px;
+  line-height: 50px;
+  }
+p {
+    color: black;
+    width: 500px;
+    border: 0px solid black;
+  }
 .section {
     width: 50%;
   }
-
 .section-title {
     font-size: 20px;
     font-weight: 400;
@@ -58,12 +81,10 @@ a:hover { color: rgb(140, 191, 221);
     letter-spacing: 5px;
     color: #829985;
   }
-
 .section-item {
     position: relative;
     padding-left: 30px;
   }
-  
 .section-item::before {
     content: "";
     position: absolute;
@@ -73,42 +94,4 @@ a:hover { color: rgb(140, 191, 221);
     height: 10px; 
     border: 1px solid #829985;
     border-radius: 50%;
-  }
-
-html {
-  scroll-behavior: smooth; 
-}
-
-.link {
-  text-decoration: none;
-  color: #829985;
-  transition: color 0.5s;
-}
-
-.link:hover {
-  color: #5d7260;
-}
-
-header {
-  background-color: cornflowerblue;
- }
-  
-footer {
-  background-color: cornflowerblue;
-  }
-
-main {
-  background-color: #fff;
-  font-size: 14px
-  }
-
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-p {
-    color: black;
-    width: 500px;
-    border: 0px solid black;
   }
