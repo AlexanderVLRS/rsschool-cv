@@ -35,10 +35,17 @@ body {
   transition: .3s;
   }
 
-a { text-decoration: none; color: black; 
+a { text-decoration: none; 
+    color: #ffe; 
     display:inline-block;
     padding:5px;
+    text-decoration: none;  
+    transition: color 0.5s;
   }
+a:hover { color: rgb(140, 191, 221);
+          cursor: pointer; 
+          text-decoration: underline;
+        }
 
 .section {
     width: 50%;
