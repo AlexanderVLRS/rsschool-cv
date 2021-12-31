@@ -25,14 +25,14 @@ body {
   justify-content: flex-end;
   align-items: center;
   list-style: none;
-  padding: 0 20px;
-  line-height: 50px;
   font-size: 14px;
 
   }
 
 .nav-link {
   transition: .3s;
+  padding: 0 20px;
+  line-height: 50px;
   }
 
 a { text-decoration: none; 
@@ -57,16 +57,6 @@ a:hover { color: rgb(140, 191, 221);
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #829985;
-  }
-
-.section-item a {
-    color: #829985;
-    text-decoration: none;  
-    transition: color 0.5s;
-  }
-
-.section-item a:hover {
-    color: #4d2323;
   }
 
 .section-item {
