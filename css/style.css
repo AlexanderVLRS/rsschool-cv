@@ -33,6 +33,20 @@ body {
   transition: .3s;
   }
 
+a { text-decoration: none; color: black; }
+
+.section {
+    width: 50%;
+  }
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+  }
+
 .section-item a {
     color: #829985;
     text-decoration: none;  
@@ -43,10 +57,18 @@ body {
     color: #4d2323;
   }
 
-a { text-decoration: none; color: black; }
-
 html {
   scroll-behavior: smooth; 
+}
+
+.link {
+  text-decoration: none;
+  color: #829985;
+  transition: color 0.5s;
+}
+
+.link:hover {
+  color: #5d7260;
 }
 
 header {
@@ -66,10 +88,6 @@ main {
     flex-wrap: wrap;
   }
   
-.section {
-    width: 50%;
-  }
-
 p {
     color: black;
     width: 500px;
