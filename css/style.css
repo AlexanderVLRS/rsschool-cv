@@ -28,6 +28,10 @@ body {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  display: flex;
+  flex: wrap;
+  max-width: 100vw;
+
 }
 footer {
   background-color: cornflowerblue;
@@ -73,6 +77,8 @@ p {
   }
 .section {
     width: 50%;
+    flex-basis: 50%;
+    Flex: 1 1 50%;
   }
 .section-title {
     font-size: 20px;
